@@ -1,0 +1,44 @@
+git_setup.txt
+plaintext
+Copy code
+# Git Workflow Documentation
+
+## Step 1: Initialize and Push to GitHub
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-friend-username/repository-name.git
+git push -u origin main
+Step 2: Create and Push the Develop Branch
+bash
+Copy code
+git checkout -b develop
+git push -u origin develop
+Step 3: Create and Push the Feature Branch
+bash
+Copy code
+git checkout -b feature/frontend
+git add index.html style.css
+git commit -m "Add frontend files"
+git push origin feature/frontend
+Step 4: Merge Feature Branch into Develop
+bash
+Copy code
+git checkout develop
+git merge feature/frontend
+git push origin develop
+Step 5: Open a Pull Request
+Go to GitHub and create a pull request from develop to main to simulate the review process.
+vbnet
+Copy code
+
+---
+
+### Step 5: Final Submission
+
+Once everything is set up and the pull request is created, you can proceed with submitting the project for your friend.
+
+If you want to add the Docker and other configuration files (like `.env`, )
+
