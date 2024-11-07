@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    body{
+    background:#243642;
+    color: #629584;
+    }
+    .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #555; /* Grey background */
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    }
