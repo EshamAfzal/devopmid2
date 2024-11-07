@@ -1,4 +1,3 @@
-Here's the detailed `README.md` file that includes all necessary information for setting up and running the project, as well as explanations of the Git workflow, Docker setup, and environment variable management.
 
 ### **README.md**
 
